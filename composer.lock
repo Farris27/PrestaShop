@@ -1208,12 +1208,12 @@
             "version": "v2.5.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "shasum": ""
             },
@@ -3948,16 +3948,16 @@
         },
         {
             "name": "prestashop/ps_legalcompliance",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaShop/ps_legalcompliance.git",
-                "reference": "711fd54ca281c2e5924e5b028204a71209cc124b"
+                "reference": "cbc0928b1a4f4d75e1bbe7b6c1a77fe5d0e30fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaShop/ps_legalcompliance/zipball/711fd54ca281c2e5924e5b028204a71209cc124b",
-                "reference": "711fd54ca281c2e5924e5b028204a71209cc124b",
+                "url": "https://api.github.com/repos/PrestaShop/ps_legalcompliance/zipball/cbc0928b1a4f4d75e1bbe7b6c1a77fe5d0e30fd6",
+                "reference": "cbc0928b1a4f4d75e1bbe7b6c1a77fe5d0e30fd6",
                 "shasum": ""
             },
             "require": {
@@ -3976,7 +3976,7 @@
             ],
             "description": "PrestaShop module ps_legalcompliance",
             "homepage": "https://github.com/PrestaShop/advancedeucompliance",
-            "time": "2018-09-19T08:24:31+00:00"
+            "time": "2019-05-22T12:54:28+00:00"
         },
         {
             "name": "prestashop/ps_linklist",
@@ -6632,7 +6632,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-08-31T19:07:57+00:00"
+            "time": "2018-11-29T10:59:02+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -7524,6 +7524,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
