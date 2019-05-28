@@ -16,7 +16,7 @@
         "curl/curl": "^1.2.1",
         "defuse/php-encryption": "~2.0.1",
         "doctrine/cache": "^1.6",
-        "doctrine/common": "~2.5.3",
+        "doctrine/common": "~2.7.3",
         "doctrine/dbal": "^2.5.3",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "~2.5.3",
