@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60b4922d90de8e7bd6b9d0ef3a1ffd60",
+    "content-hash": "39cbee3d9fda3d5752204525f8676e16",
     "packages": [
         {
             "name": "analog/analog",
@@ -1208,12 +1208,12 @@
             "version": "v2.5.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "shasum": ""
             },
@@ -1695,24 +1695,74 @@
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
-            "name": "icanboogie/cldr",
-            "version": "v1.3.9",
+            "name": "icanboogie/accessor",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ICanBoogie/CLDR.git",
-                "reference": "1a0de40c185cef197357d91f5e3e41817a59b6fe"
+                "url": "https://github.com/ICanBoogie/Accessor.git",
+                "reference": "cf29bf0a51c5c8abb3a0a7c42770a5c8902ed153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/CLDR/zipball/1a0de40c185cef197357d91f5e3e41817a59b6fe",
-                "reference": "1a0de40c185cef197357d91f5e3e41817a59b6fe",
+                "url": "https://api.github.com/repos/ICanBoogie/Accessor/zipball/cf29bf0a51c5c8abb3a0a7c42770a5c8902ed153",
+                "reference": "cf29bf0a51c5c8abb3a0a7c42770a5c8902ed153",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "^1.2",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ICanBoogie\\Accessor\\": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "https://olvlvl.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Implements getters/setters, read-only/write-only properties, volatile defaults, type control…",
+            "homepage": "https://icanboogie.org/",
+            "keywords": [
+                "facade",
+                "getter",
+                "setter"
+            ],
+            "time": "2018-11-25T16:30:12+00:00"
+        },
+        {
+            "name": "icanboogie/cldr",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/CLDR.git",
+                "reference": "621364248863cb3eac87a5181779fec8446db5fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/CLDR/zipball/621364248863cb3eac87a5181779fec8446db5fb",
+                "reference": "621364248863cb3eac87a5181779fec8446db5fb",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "icanboogie/common": "~1.2.2",
-                "icanboogie/datetime": "~1.1.1",
-                "php": ">=5.4.0"
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "icanboogie/accessor": "^1.0|^2.0|^3.0",
+                "icanboogie/common": "^1.2.2",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "ext-redis": "*"
             },
             "type": "library",
             "autoload": {
@@ -1728,12 +1778,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
-            "description": "An API to i18n your application using Unicode's CLDR",
-            "homepage": "http://icanboogie.org/",
+            "description": "An API to localize applications using Unicode's CLDR",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "cldr",
                 "currency",
@@ -1742,30 +1792,30 @@
                 "locale",
                 "territory"
             ],
-            "time": "2015-02-01T12:02:54+00:00"
+            "time": "2018-12-01T13:35:19+00:00"
         },
         {
             "name": "icanboogie/common",
-            "version": "v1.2.2.1",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Common.git",
-                "reference": "ec90b2d854a49882c814c84f67ed54bbb566aac0"
+                "reference": "67c8869ba2c242ce4eaacff760d3150a61cda365"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Common/zipball/ec90b2d854a49882c814c84f67ed54bbb566aac0",
-                "reference": "ec90b2d854a49882c814c84f67ed54bbb566aac0",
+                "url": "https://api.github.com/repos/ICanBoogie/Common/zipball/67c8869ba2c242ce4eaacff760d3150a61cda365",
+                "reference": "67c8869ba2c242ce4eaacff760d3150a61cda365",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "lib/"
-                ],
+                "psr-4": {
+                    "ICanBoogie\\": "lib"
+                },
                 "files": [
                     "bootstrap.php",
                     "lib/helpers.php"
@@ -1779,66 +1829,16 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Common helpers and classes for ICanBoogie",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "toolkit"
             ],
-            "time": "2014-10-21T12:06:36+00:00"
-        },
-        {
-            "name": "icanboogie/datetime",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ICanBoogie/DateTime.git",
-                "reference": "7cc0b99a7e7660d8ce0b81994a5493006247266b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/DateTime/zipball/7cc0b99a7e7660d8ce0b81994a5493006247266b",
-                "reference": "7cc0b99a7e7660d8ce0b81994a5493006247266b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "icanboogie/common": "~1.2"
-            },
-            "suggest": {
-                "icanboogie/common": "Allows finer exceptions to be thrown"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "lib/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Olivier Laviale",
-                    "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Extends the features of PHP DateTime and DateTimeZone",
-            "homepage": "http://icanboogie.org/",
-            "keywords": [
-                "date",
-                "time",
-                "timezone"
-            ],
-            "time": "2015-01-27T21:04:04+00:00"
+            "time": "2017-04-06T19:56:44+00:00"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -6632,7 +6632,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-08-31T19:07:57+00:00"
+            "time": "2018-11-29T10:59:02+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -7524,6 +7524,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
