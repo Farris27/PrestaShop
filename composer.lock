@@ -1208,12 +1208,12 @@
             "version": "v2.5.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "reference": "810a7baf81462a5ddf10e8baa8cb94b6eec02754",
                 "shasum": ""
             },
@@ -4524,16 +4524,16 @@
         },
         {
             "name": "prestashop/statscheckup",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaShop/statscheckup.git",
-                "reference": "b6371adaa36887e9f0a2d3e5fc68333c719c236c"
+                "reference": "7acd7702ab8ecb2b88e529e1eab8d4b7fafbca07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaShop/statscheckup/zipball/b6371adaa36887e9f0a2d3e5fc68333c719c236c",
-                "reference": "b6371adaa36887e9f0a2d3e5fc68333c719c236c",
+                "url": "https://api.github.com/repos/PrestaShop/statscheckup/zipball/7acd7702ab8ecb2b88e529e1eab8d4b7fafbca07",
+                "reference": "7acd7702ab8ecb2b88e529e1eab8d4b7fafbca07",
                 "shasum": ""
             },
             "require": {
@@ -4552,7 +4552,7 @@
             ],
             "description": "PrestaShop module statscheckup",
             "homepage": "https://github.com/PrestaShop/statscheckup",
-            "time": "2017-01-30T17:29:08+00:00"
+            "time": "2018-12-17T09:59:57+00:00"
         },
         {
             "name": "prestashop/statsdata",
@@ -6632,7 +6632,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-08-31T19:07:57+00:00"
+            "time": "2018-11-29T10:59:02+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -7524,6 +7524,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
