@@ -120,7 +120,7 @@
         "johnkary/phpunit-speedtrap": "^1.1",
         "phake/phake": "@stable",
         "phpunit/phpunit": "~5.7",
-        "symfony/phpunit-bridge": "^3.0"
+        "symfony/phpunit-bridge": "^4.2"
     },
     "autoload-dev": {
         "psr-4": {
